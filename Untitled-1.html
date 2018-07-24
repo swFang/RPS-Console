@@ -1,0 +1,60 @@
+<!DOCTYPE-html>
+<html>
+
+<script>
+
+    function computerPlay(){
+        var play = Math.random(3) * (3 - 1) + 1 ;
+        console.log ("random num = " + play); 
+        return play; 
+       /* if (play == 1){
+            return 'Rock'; 
+        } else if (play == 2){
+            return 'Paper';
+        } else {
+            return 'Scissors'
+        }*/
+    }
+
+    function playRound(playerSelection){
+        //var areEqual = string1.toUpperCase() === string2.toUpperCase();
+        
+        //1 = rock
+        //2 = paper
+        //3 = scissor
+        
+
+        //W/L in players perspective
+        var comp = computerPlay(); 
+        if(playerSelection.toUpperCase() === 'Rock'.toUpperCase()){
+            if(comp = 1) {
+                return "t";
+            }else if(comp = 2) {
+                return "l";
+            } else {
+                return "w";
+            }
+        } else if(playerSelection.toUpperCase() === 'scissor'.toUpperCase()){
+            
+            if(comp = 1) {
+                return "l";
+            }else if(comp = 2) {
+                return "w";
+            } else {
+                return "t";
+            }
+
+        }else {
+            if(comp = 1) {
+                return "w";
+            }else if(comp = 2) {
+                return "t";
+            } else {
+                return "l";
+            }
+
+        }
+        }
+</script>
+
+</html>
