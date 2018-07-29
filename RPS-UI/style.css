@@ -1,0 +1,35 @@
+.rock{
+    position: fixed;
+    left: 40%;
+    top: 50%; 
+}
+
+.button{
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+    background-color: lightgray;
+    color: gray;
+    padding: 5px 5px; 
+    font-weight:bold;
+    font-family: sans-serif;
+    display: inline;
+    cursor: pointer;
+}
+.paper{
+    position: fixed;
+    left: 50%;
+    top: 50%
+}
+
+.scissors{
+    position: fixed;
+    left: 60%;
+    top: 50%
+}
+
+.console{
+    position: fixed;
+    left: 50%;
+    top: 40%
+}
